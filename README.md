@@ -1,4 +1,4 @@
 Another-Life
 ============
 
- This application breaking (your) bad habbit .
+ This application is breaking (your) bad habbit.
