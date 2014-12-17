@@ -57,7 +57,7 @@ class Home(Tk):
         b3 = Button(image = photo_bot2, bg = '#a5ffd8', relief = FLAT, command = self.about_b)
         b1.place(x = 335, y = 130)
         #b2.place(x = 335, y = 265)
-        b3.place(x = 335, y = 400)
+        b3.place(x = 335, y = 430)
 
         self.gole_today()
 
