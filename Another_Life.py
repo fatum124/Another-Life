@@ -39,7 +39,7 @@ class Home(Tk):
         root.title("Another Life")
         root.resizable(0, 0)
         #--root bg
-        photo_bg = PhotoImage(file = "picture/BG01.gif")
+        photo_bg = PhotoImage(file = "Picture/BG01.gif")
         root = Label(image = photo_bg)
         root.pack()
 
@@ -48,8 +48,8 @@ class Home(Tk):
         now_date.place(x = 55, y = 90)
 
         #--botton
-        photo_bot1 = PhotoImage(file = "picture/bot1.gif")
-        photo_bot2 = PhotoImage(file = "picture/bot2.gif")
+        photo_bot1 = PhotoImage(file = "Picture/bot1.gif")
+        photo_bot2 = PhotoImage(file = "Picture/bot2.gif")
         #photo_bot3 = PhotoImage(file = "picture/bot3.gif")
 
         b1 = Button(image = photo_bot1, bg = '#a5ffd8', relief = FLAT, command = self.add_b)
